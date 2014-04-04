@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="menuOptionsArray">
+        <item>Stream</item>
+        <item>Events</item>
+        <item>Gallery</item>
+        <item>My Notifications</item>
+        <item>Booking</item>
+        <item>About</item>
+    </string-array>
+</resources>
