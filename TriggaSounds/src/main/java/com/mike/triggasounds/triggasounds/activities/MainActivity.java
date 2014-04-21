@@ -251,6 +251,16 @@ public class MainActivity extends ActionBarActivity {
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                                  Bundle savedInstanceState) {
 
+            Track trackList[] = new Track[] {
+                    new Track(R.drawable.logo, "Mashup 1"),
+                    new Track(R.drawable.logo, "Mashup 2"),
+                    new Track(R.drawable.logo, "Mashup 3"),
+                    new Track(R.drawable.logo, "Mix 1"),
+                    new Track(R.drawable.logo, "Mix 2"),
+                    new Track(R.drawable.logo, "Mix 3")
+            };
+            //TrackAdapter trackAdapter = new TrackAdapter(MainActivity.class, R.layout.listview_row, trackList);
+            //mTrackListView.setAdapter(trackAdapter);
             String[] streamAdapter = new String[]{
                     "Mix 1",
                     "Mix 2",
@@ -267,10 +277,10 @@ public class MainActivity extends ActionBarActivity {
         }
     }
     //MENU FRAGMENT
-    public static class MenuFragment extends Fragment {
+    public static class GalleryFragment extends Fragment {
         public static final String MENU_ITEM_NUM = "item_number";
 
-        public MenuFragment() {
+        public GalleryFragment() {
             // Empty constructor REQUIRED for fragment subclasses
         }
         @Override
