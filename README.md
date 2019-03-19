@@ -1,3 +1,3 @@
 # TriggaSounds
 
-Andriod app
+Andriod app for music stuff
